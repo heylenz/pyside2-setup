@@ -2,6 +2,6 @@ init:
   - cmd: C:\Python27-x64\python.exe --version
   - cmd: C:\Python27-x64\python.exe -c "import platform; print(platform.machine())"
   - cmd: dir C:\
-  - cmd: dir C:\Program Files
-  - cmd: dir C:\Program Files (x86)
+  - cmd: dir "C:\Program Files"
+  - cmd: dir "C:\Program Files (x86)"
   - cmd: set
